@@ -4,6 +4,7 @@ au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm al
 cmap w!! w !sudo tee %
 filetype indent plugin on
 filetype plugin indent on
+let g:Hexokinase_highlighters =['backgroundfull']
 let g:colorizer_auto_filetype='css,html'
 let g:mapleader = "\<Space>"            " set leader key
 let g:calendar_week_number=1

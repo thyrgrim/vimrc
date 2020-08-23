@@ -6,3 +6,4 @@ source $HOME/.config/nvim/keybind.vim
 source $HOME/.config/nvim/theme.vim
 source $HOME/.config/nvim/airline.vim
 source $HOME/.config/nvim/vimwiki.vim
+source $HOME/.config/nvim/fzf.vim

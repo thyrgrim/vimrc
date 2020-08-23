@@ -14,12 +14,14 @@ call plug#begin()
     "Plug 'vim-latex/vim-latex'
     "Plug 'yggdroot/indentline'
     Plug 'alvan/vim-closetag'
-    "Plug 'chrisbra/colorizer'
+    Plug 'chrisbra/colorizer'
     Plug 'flazz/vim-colorschemes'
     Plug 'honza/vim-snippets'
     "Plug 'itchyny/lightline.vim'
     Plug 'junegunn/goyo.vim'
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
+    Plug 'airblade/vim-rooter'                                                    "Detta pluginet installerade jag för att få fzf att funka tror jag men jag vet inte riktigt vad det gör 
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
     Plug 'luchermitte/lh-vim-lib'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -29,9 +31,9 @@ call plug#begin()
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'vim-scripts/c.vim'
-    Plug 'vimwiki/vimwiki'
+    Plug 'vimwiki/vimwiki'                                                        "Anteckningar och wiki. Används med markdown.
     "test plugins
-    Plug 'airblade/vim-gitgutter'
-    Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
+    Plug 'airblade/vim-gitgutter'                                                 "Ett plugin för git interaktion. Verkar funka bra!
+    "Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }                     "Ett plugin jag testar som ska färglägga hex koder
 
 call plug#end()
