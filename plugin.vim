@@ -1,8 +1,9 @@
 " plugins
 call plug#begin()
 
+    Plug 'vim-scripts/visualHtml'
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' }
-    Plug 'itchyny/calendar.vim'
+    "Plug 'itchyny/calendar.vim'                                                   "Calendar
     Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
     "Plug 'mattn/emmet-vim'
     "Plug 'ervandew/supertab'
@@ -14,7 +15,7 @@ call plug#begin()
     "Plug 'vim-latex/vim-latex'
     "Plug 'yggdroot/indentline'
     Plug 'alvan/vim-closetag'
-    Plug 'chrisbra/colorizer'
+    Plug 'chrisbra/colorizer'                                                     "Färglägger hex coder
     Plug 'flazz/vim-colorschemes'
     Plug 'honza/vim-snippets'
     "Plug 'itchyny/lightline.vim'
