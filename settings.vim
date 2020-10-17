@@ -8,6 +8,13 @@ let g:Hexokinase_highlighters =['backgroundfull']
 let g:colorizer_auto_filetype='css,html'
 let g:mapleader = "\<Space>"            " set leader key
 let g:calendar_week_number=1
+"Emojis
+set completefunc=emoji#complete
+let g:gitgutter_sign_added = emoji#for('small_blue_diamond')
+let g:gitgutter_sign_modified = emoji#for('small_orange_diamond')
+let g:gitgutter_sign_removed = emoji#for('small_red_triangle')
+let g:gitgutter_sign_modified_removed = emoji#for('collision')
+"
 set autoindent                          " Good auto indent
 set background=dark                     " tell vim what the background color looks like
 set clipboard=unnamedplus               " Copy paste between vim and everything else

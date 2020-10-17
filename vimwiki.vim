@@ -1,5 +1,5 @@
 " let g:vimwiki_folding = 'list'                                                              " Gör så att listor blir ihopvikta
-let g:vimwiki_folding = 'expr'                                                                " Gör så att den viker ihop vid varje titel tag
+"let g:vimwiki_folding = 'expr'                                                                " Gör så att den viker ihop vid varje titel tag
 " Här skapar jag 2 st olika wikis, en för privata anteckningar(wiki1) och en för hemsidan(wiki2). 
 let wiki_1 = {}
 let wiki_1.path = '~/nextcloud/Notes/vimwiki/'                                                "Var det lagras

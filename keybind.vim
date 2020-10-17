@@ -6,15 +6,20 @@
 " Calendar
   nmap <space>c :Calendar-split=vertical<cr>
 
-" För att splita fönster
-  map <C-f> :vert new<cr>
-  map <C-g> :split new<cr>
+" För att splita fönster. Jag kommenterar ut dessa för att jag kör med dwm
+" pluginet istället.
+  "map <C-f> :vert new<cr>
+  "map <C-g> :split new<cr>
 
 " För att byta tab
   map <C-t> gt
 
 " För att starta goyo
   map <S-y> :Goyo <cr>
+
+" Preview plugins
+  map <S-p> :LLPStartPreview <cr>
+  map <S-m> :MarkdownPreview <cr>
 
 " Spell shecking:
   map <F3> :set spell <cr>
@@ -67,11 +72,11 @@
   vnoremap < <gv
   vnoremap > >gv
 
-" Better window navigation
-  nnoremap <C-h> <C-w>h
-  nnoremap <C-j> <C-w>j
-  nnoremap <C-k> <C-w>k
-  nnoremap <C-l> <C-w>l
+" Better window navigation. Jag kommenterar ut dessa för jag kör med dwm.
+  " nnoremap <C-h> <C-w>h
+  " nnoremap <C-j> <C-w>j
+  " nnoremap <C-k> <C-w>k
+  " nnoremap <C-l> <C-w>l
 
   nnoremap <Leader>o o<Esc>^Da
   nnoremap <Leader>O O<Esc>^Da
