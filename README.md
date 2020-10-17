@@ -6,7 +6,8 @@
 2. Installera Neovim-plug
 3. Clona git arkivet till home/user/.config/
 > $ git clone https://github.com/thyrgrim/vimrc
-5. Starta Neovim och installera plugins med kommandot :PlugInstall
+5. Starta Neovim och installera plugins med kommandot
+> :PlugInstall
 
 ## Inställningar:
 Jag har skapat inställnings filer för olika saker som keybinds och plugins, de har jag sedan har sourceat i init.vim filen. 
