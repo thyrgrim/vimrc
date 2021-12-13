@@ -7,7 +7,7 @@ set incsearch                           " Higlights searches as you type them.
 set scrolloff=8                         " Starts to scroll down befor cursor hits last line
 set hidden                              " Required to keep multiple buffers open multiple buffers
 "set nowrap                              " Display long lines as just one line
-" set encoding=utf-8                      " The encoding displayed
+set encoding=utf-8                      " The encoding displayed
 set pumheight=10                        " Makes popup menu smaller
 set fileencoding=utf-8                  " The encoding written to file
 set ruler                               " Show the cursor position all the time
@@ -38,8 +38,6 @@ set updatetime=300                      " Faster completion
 set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
-let g:limelight_conceal_ctermfg = 'gray'
-let g:limelight_conceal_ctermfg = 240
 " Printer settings
 " set pdev=HLL2350DW                      " Sets the default printer
 " set printexpr                           " A setting that I tried out when i tried to get printing to work(not sure if I need it)
@@ -49,3 +47,37 @@ let g:limelight_conceal_ctermfg = 240
 set list
 " plugin
 let g:AutoPairsFlyMode = 1              " Plugin auto pairs flymode"
+
+" syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+" Vim-Latex
+let g:Tex_DefaultTargetFormat = 'pdf'   " Default format
+let g:Tex_MultipleCompileFormats = 'pdf' " Default format
+let g:livepreview_previewer = 'zathura'
+
+" Limelight
+let g:limelight_conceal_ctermfg = 'gray'
+let g:limelight_conceal_ctermfg = 240
+autocmd! User GoyoEnter Limelight
+autocmd! User GoyoLeave Limelight!
+
+" Folds
+highlight Folded guibg=orange guifg=black
+highlight FoldColumn guibg=red guifg=black
+
+" vim terminal
+let g:vimterm_height = 10
+
+" nerdtree
+let g:airline#extensions#nerdtree_statusline = 1
+
+" NeoTex
+let g:neotex_enabled = 2
