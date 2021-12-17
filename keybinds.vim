@@ -54,3 +54,6 @@
 
 " Nerdtree
  nnoremap <space>r :NERDTree <CR>
+
+ " NeoTex Live preview
+ nnoremap <space>l :NeoTex <CR>

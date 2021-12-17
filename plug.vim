@@ -8,10 +8,11 @@ call plug#begin('~/.vim/plugged')
     "Status bar
     Plug 'vim-airline/vim-airline'
     " Latex Plugins
-    Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' } " verkar inte
+    " Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' } " verkar inte
     " funka pga något python fel. Verkar som problemet kan ha varita att jag
     " inte hade latex installerat... lol fan vad klantigt haha
-    " Plug 'donraphaco/neotex', { 'for': 'tex' }
+    Plug 'donraphaco/neotex', { 'for': 'tex' }
+    " Plug 'yxrdydh/vim-latex-live-preview'
     "ranger
     " Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
     "vim devicons
@@ -53,7 +54,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'enricobacis/vim-airline-clock'                                          "Lägger till en klocka i status raden
     Plug 'ap/vim-buftabline'                                                      "Gör så att man använder buffrar i tabs istället
     Plug 'vim-latex/vim-latex'
-    Plug 'vim-syntastic/syntastic'
+    " Plug 'vim-syntastic/syntastic'
     " nerdtree
     Plug 'scrooloose/nerdtree'
     Plug 'xuyuanp/nerdtree-git-plugin'
