@@ -59,9 +59,5 @@ call plug#begin('~/.vim/plugged')
     Plug 'scrooloose/nerdtree'
     Plug 'xuyuanp/nerdtree-git-plugin'
     Plug 'wvffle/vimterm'
-    " Excell grej som jag inte tror funkar
-    Plug 'andmarti1424/sc-im'
-    " Plug ''
-
     Plug 'ryanoasis/vim-devicons'
 call plug#end()
