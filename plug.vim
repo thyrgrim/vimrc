@@ -5,6 +5,9 @@ call plug#begin('~/.vim/plugged')
     Plug 'nanotech/jellybeans.vim'
     Plug 'mhartington/oceanic-next'
     Plug 'zeis/vim-kolor'
+    Plug 'dracula/vim'
+    Plug 'arcticicestudio/nord-vim'
+    Plug 'sickill/vim-monokai'
     "Status bar
     Plug 'vim-airline/vim-airline'
     " Latex Plugins
@@ -35,8 +38,6 @@ call plug#begin('~/.vim/plugged')
     Plug 'tpope/vim-surround'
     " Typing tutor
     " Plug 'thanthese/tortoise-typing'
-    " Folding for c, but i dont think i will be using it...
-    " Plug 'luchermitte/vimfold4c'
     " Git gutter
     Plug 'airblade/vim-gitgutter'
     " Html helper, will close tags.

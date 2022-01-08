@@ -1,8 +1,8 @@
 source ~/.config/nvim/plug.vim
 source ~/.config/nvim/keybinds.vim
-source ~/.config/nvim/themes/jellybeans.vim " sets the theme. options are gruvbox.vim, jellybeans.vim, kolor.vim, oceanic.vim and one_dark.vim
+source ~/.config/nvim/themes/monokai.vim " sets the theme. options are monokai.vim, nord.vim, dracula.vim, gruvbox.vim, jellybeans.vim, kolor.vim, oceanic.vim and one_dark.vim
 source ~/.config/nvim/sets.vim
-source ~/.config/nvim/rnvimr.vim
+" source ~/.config/nvim/rnvimr.vim
 " source ~/.config/nvim/dwm.vim
 source ~/.config/nvim/closetag.vim
 source ~/.config/nvim/hexokinase.vim

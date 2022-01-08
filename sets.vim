@@ -44,19 +44,19 @@ set clipboard=unnamedplus               " Copy paste between vim and everything 
 " set popt=paper:a4,header:0              " Removes header
 " List chars options
 " set listchars=tab:➤➤,nbsp:_,trail:.,eol:↲
-set list
+" set list
 " plugin
 let g:AutoPairsFlyMode = 1              " Plugin auto pairs flymode"
 
-" syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+" " syntastic
+" set statusline+=%#warningmsg#
+" set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%*
 
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+" let g:syntastic_always_populate_loc_list = 1
+" let g:syntastic_auto_loc_list = 1
+" let g:syntastic_check_on_open = 1
+" let g:syntastic_check_on_wq = 0
 
 " Vim-Latex
 let g:Tex_DefaultTargetFormat = 'pdf'   " Default format

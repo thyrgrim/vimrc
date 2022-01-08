@@ -14,7 +14,6 @@
 
 + Fzf
 + Goyo
-+ Rnvimr
 + Hexokinase
 + Vim-airline
 + Vim-airline-clock
@@ -23,9 +22,16 @@
 + Vim-devicons
 + Vim-gitgutter
 + Vimwiki
++ Vim-Latex
++ NERDTree
++ NERDTree git
++ Vimterm
++ Buftabline
++ Vim-emoji
 
 ## Colorshemes:
 
++ Dracula
 + Gruvbox
 + Jellybeans
 + Kolor
