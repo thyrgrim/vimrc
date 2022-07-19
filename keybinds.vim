@@ -21,10 +21,6 @@
  nnoremap <M-h>    :vertical resize -2<CR>
  nnoremap <M-l>    :vertical resize +2<CR>
 
-" Easy CAPS
- inoremap <c-u> <ESC>viwUi
- nnoremap <c-u> viwU<Esc>
-
 " TAB in general mode will move to text buffer
  nnoremap <TAB> :bnext<CR>
 
@@ -39,7 +35,7 @@
  vnoremap > >gv
 
 " Goyo toggle
- nnoremap <C-g> :Goyo<CR>
+ " nnoremap <C-g> :Goyo<CR>
 
 " Vim-commentary
  nnoremap <space>c :Commentary<CR>

@@ -9,6 +9,7 @@ source ~/.config/nvim/hexokinase.vim
 source ~/.config/nvim/fzf.vim
 " source ~/.config/nvim/fold4c.vim
 source ~/.config/nvim/abbrevations.vim
+source ~/.config/nvim/macros.vim
 
 " to make neovim transparent if the terminal emulater supports it. (must be loaded after the theme)
 hi Normal guibg=NONE ctermbg=NONE

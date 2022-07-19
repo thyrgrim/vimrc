@@ -10,6 +10,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'sickill/vim-monokai'
     "Status bar
     Plug 'vim-airline/vim-airline'
+    Plug 'jremmen/vim-ripgrep'
     " Latex Plugins
     " Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' } " verkar inte
     " funka pga något python fel. Verkar som problemet kan ha varita att jag
@@ -22,8 +23,8 @@ call plug#begin('~/.vim/plugged')
     " Better code syntax with vim-polyglot
     Plug 'sheerun/vim-polyglot'
     " Goyo!
-    Plug 'junegunn/goyo.vim'
-    Plug 'junegunn/limelight.vim'
+    " Plug 'junegunn/goyo.vim'
+    " Plug 'junegunn/limelight.vim'
     " DWM
     " Plug 'spolu/dwm.vim'
     " Latex helper

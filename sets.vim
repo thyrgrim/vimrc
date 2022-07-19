@@ -2,6 +2,7 @@ autocmd BufWrite * mkview
 autocmd BufRead * silent! loadview
 syntax enable                           " Enables syntax highlighing
 set termguicolors                       " Turns on colors, i enabled it to make hexokinase work
+set spelllang=sv_SE                     " Sets spelling language to swedish
 set nohlsearch                          " Removes search highlighting
 set incsearch                           " Higlights searches as you type them.
 set scrolloff=8                         " Starts to scroll down befor cursor hits last line
@@ -64,10 +65,10 @@ let g:Tex_MultipleCompileFormats = 'pdf' " Default format
 let g:livepreview_previewer = 'zathura'
 
 " Limelight
-let g:limelight_conceal_ctermfg = 'gray'
-let g:limelight_conceal_ctermfg = 240
-autocmd! User GoyoEnter Limelight
-autocmd! User GoyoLeave Limelight!
+" let g:limelight_conceal_ctermfg = 'gray'
+" let g:limelight_conceal_ctermfg = 200
+" autocmd! User GoyoEnter Limelight
+" autocmd! User GoyoLeave Limelight!
 
 " Folds
 highlight Folded guibg=orange guifg=black
@@ -81,3 +82,7 @@ let g:airline#extensions#nerdtree_statusline = 1
 
 " NeoTex
 let g:neotex_enabled = 2
+
+" airline
+let g:airline#extensions#wordcount#enabled = 1
+
